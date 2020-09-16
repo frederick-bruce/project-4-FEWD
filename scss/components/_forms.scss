@@ -1,0 +1,31 @@
+.form {
+    flex-basis: 100%;
+  }
+  
+  .input{
+    display: block;
+    width: 70%;
+    margin: 10px auto 0;
+    border: none;
+    padding: 10px;
+    border-bottom: 5px solid $torquoise;
+    background-color: $wet-ashpahlt;
+    border-radius: 5px;
+    transition: all .3s ease 0s;
+    &:focus{
+      outline: none;
+      width: 85%;
+      border-bottom: 5px solid hotpink;
+    }
+  }
+  
+  .hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+  
+  

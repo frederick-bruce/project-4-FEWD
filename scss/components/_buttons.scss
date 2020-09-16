@@ -1,0 +1,38 @@
+.btn {
+    margin-top: 15px;
+    width: 40%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 24px;
+    transition: all .3s ease-in;
+    @include center;
+
+    &:hover {
+      background-color: lighten($color: $maya-blue, $amount: 15%);
+      cursor: pointer;
+
+    }
+  }
+  
+  .default {
+    background-color: $maya-blue;
+  }
+  
+  .error {
+    background-color: $froly;
+  }
+  
+  .info {
+    background-color: $lilac-bush;
+  }
+  
+  .success {
+    background-color: #63cc82;
+  }
+  
+  .warning {
+    background-color: $coral;
+  }
+  
